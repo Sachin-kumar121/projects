@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: rgb(228, 223, 223);
+
+    text-decoration: none;
+    transition: border 3s ease-in-out 0.2s;
+    border-radius: 1rem;
+    text-shadow:4px 4px 8px rgba(90, 72, 72, 0.5) ;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+.navbar{
+    font-family: poppins,sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar:hover{
+    border-bottom: 7px solid rgb(100, 100, 244);
+    border-radius: 9px;
+    
+}
+a:hover{
+    color: blue;
+    background-color: rgb(12, 29, 29);
+    border-bottom: 3px solid blue;
+
+}
+.content{
+    margin-top: 64px;
+    height: 423px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1746471626032-d5dd71f0ba9c?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+form{
+
+    margin-left: 400px;
+    margin-top: 300px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+
+}
+input{
+    padding: 9px;
+    height: 30px;
+    width: 565px;
+    margin-right: 12px;
+    border-radius: 21px;
+    border-style: none;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.youtube{
+    color: rgb(228, 223, 223);
+    text-align: center;
+    font-size: 100px;
+    margin-left: 110px;
+    margin-bottom: 32px;
+}
+.but{
+    background-color: rgb(228, 223, 223);
+    color: rgb(53, 56, 58);
+    border-style: none;
+    border-radius: 9px;
+    padding: 8px;
+    font-size: 17px;
+    width: 215px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 180px;
+}
+
+.footer{
+    font-family: poppins,sans-serif;
+    font-size: 20px;
+    background-color: rgb(12, 9, 9);
+    color: aqua;
+    
+    
+}
